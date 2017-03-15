@@ -14,9 +14,9 @@ Prerequisites: RVM
 
     rvm install jruby-9
     rvm @global do gem install bundler
-    bundle
+    bundle install
 
-## database.yml
+## Configure database.yml
 
 1. JDBC URL Format
     
