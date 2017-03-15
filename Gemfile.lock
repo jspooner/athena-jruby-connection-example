@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+
+RUBY VERSION
+   ruby 2.3.1p0 (jruby 9.1.8.0)
+
+BUNDLED WITH
+   1.14.6
