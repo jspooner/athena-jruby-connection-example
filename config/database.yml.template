@@ -1,0 +1,12 @@
+# s3_staging_dir: The Amazon S3 location to which your query output is written. 
+#                 The JDBC driver then asks Athena to read the results and provide 
+#                 rows of data back to the user.
+
+development:
+  adapter: jdbc
+  driver: com.amazonaws.athena.jdbc.AthenaDriver
+  url: jdbc:awsathena://athena.REGION.amazonaws.com:443
+  properties:
+    s3_staging_dir: s3://my_bucket/athena_staging/
+    user: AWS_ACCESS_KEY
+    password: AWS_ACCESS_SECRET
